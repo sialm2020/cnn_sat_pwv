@@ -1,0 +1,28 @@
+# Dados brutos grandes
+data_raw/goes_nc/
+data_raw/**/*.nc
+data_raw/**/*.nc.gz
+*.nc
+*.nc.gz
+
+# Planilhas locais
+data_raw/**/*.xlsx
+*.xlsx
+
+# Produtos processados grandes/intermediários
+data_processed/*.npy
+data_processed/*.npz
+data_processed/*.pkl
+data_processed/*.h5
+
+# Cache Python/Jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Logs
+*.log
+
+# Arquivos temporários
+.DS_Store
+*:Zone.Identifier
